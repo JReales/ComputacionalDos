@@ -25,7 +25,7 @@ print('valor en los extremos: ', xi)
 # calculo de los trapecios
 area = 0
 for i in range(0, n):
-    aT = (tfuncion(xi[i])+tfuncion(xi[i+1]))
+    aT = (tfuncion(xi[i])+tfuncion(xi[i+1]))/2
     T = Dx*aT
     area = area + T
 
